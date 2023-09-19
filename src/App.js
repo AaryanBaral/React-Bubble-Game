@@ -6,7 +6,7 @@ const ScoreContext = createContext();
 function App() {
   const [score, setScore] = useState(0);
   const [gameOver, setGameOver] = useState(false);
-  const [count, setCount] = useState();
+  const [count, setCount] = useState(60);
   const  [hit, setHit] = useState(Math.floor(Math.random()*10));
   const [numbers, setNumbers] = useState(setValue());
 
